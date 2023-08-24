@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+
+.title{
+color: #FFF;
+font-family: Playfair Display;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 50px;
+}
+
+.header{
+  position: absolute;
+  left: 0;
+  right: 0;
+    
+   
+}
+
+.bigContainer{
+    max-width: 1920px;
+    margin: 0 auto;
+   padding-left: 120px;
+  
+  
+    
+}
+
+
+
+.bigContainer__inner{
+    display: flex;
+    justify-content: space-between;
+    
+
+   
+}
+
+.menu{
+    padding-top: 30px;
+    padding-right: 120px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 0 20px;
+    
+}
+.logo{
+    padding-top: 25px;
+
+}
+.menu__list-link{
+font-family: Montserrat;
+font-size: 15px;
+cursor: pointer;
+
+}
+
+.section__island{
+    background-image: url(images/irland.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  
+    
+}
+
+.bigContainer__inner-island{
+ padding-top: 220px;
+  padding-bottom: 230px;
+
+
+  
+}
+
+.text__for-irland{
+color: #FFF;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 96px;
+}
+
+.button__irland{
+    padding: 17px 56px;
+    border-radius: 38px;
+    background-color:#3CDCFF;
+}
+
+.burger{
+    display: none;
+}
+
+/* вторая секция */
+
+
+.bigContainer__travel{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 159px 310px 160px 130px;
+    display: flex;
+}
+
+
+.Hawaii__podcontainer{
+    padding-left: 70px;
+}
+
+.Hawaii__inner{
+    position: relative;
+}
+
+.time{
+    position: absolute;
+    left: 60px;
+    top: 29px;
+    color: #FFF;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Playfair Display;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+
+.month{
+    position: absolute;
+    top: 53px;
+    left: 60px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.text__Hawaii{
+    position: absolute;
+    bottom: 45px;
+    left: 60px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+.Hawaii{
+    width: 760px;
+}
+
+
+.Hawaii__flora-text{
+color: #030000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+width: 417px;
+margin-bottom: 51px;
+
+}
+
+.Hawaii__btn{
+    padding: 24px 57px;
+    border-radius: 38px;
+    border: 2px solid #3CDCFF;
+    color: #48DEFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+.Hawaii__tur{
+    width: 417px;
+    color: #030000;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 30PX;
+    margin-top: 29px;
+ 
+}
+
+
+
+
+
+/* третья секция */
+
+.bigContainer__person{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.picture__person{
+    background-image:url(./images/person.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+   
+    
+    
+}
+
+
+.picture__person-grid{
+    display: grid;
+   grid-template-columns: 360px 284px;
+   justify-content: end;
+   padding-top: 77px;
+   padding-right: 244px;
+   padding-bottom: 125px;
+  
+ 
+}
+
+
+
+
+
+
+
+.consultation__person{
+   max-width: 350px;
+    color: #030000;
+    font-family: Playfair Display;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+}
+
+.consultation__person-text{
+    width: 195px;
+    color: #030000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+
+.person__application{
+    display: block;
+    padding: 22px 53px 21px 27px;
+    border-radius: 38px;
+    border: 2px solid #9CB7CA;
+    text-align: start;
+    color: #9CB7CA;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.person__application-call{
+    padding: 34px 53px 9px 27px;
+    border-radius: 38px;
+    border: 2px solid #9CB7CA;
+    color: #9CB7CA;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.6px;
+    margin-bottom: 25px;
+}
+
+.person__application-btn{
+    width: 333px;
+    display: block;
+    height: 67px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 38px;
+    background: #3CDCFF;
+    margin-bottom: 10px;
+}
+
+.person__application-text{
+    width:212px;
+    height: 35px;
+    color: #030000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    margin: 0 42px 0 60px;
+}
+
+
+.person__application-text span{
+color: #007792;
+font-family: Montserrat;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+
+
+/* отсюда начинается 4 секц */
+
+
+.tavel__inner-wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 159px 265px 160px 110px;
+    display: flex;
+
+}
+
+.travel__tur{
+    width: 474px;
+}
+
+.travel__inner{
+    position: relative;
+    margin-left: 60px;
+}
+
+
+.name__person{
+    position: absolute;
+    top: 63px;
+    left: 60px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px
+}
+
+
+.text__Hawaii-travel{
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 29px;
+}
+
+.travel__btn{
+    border-radius: 38px;
+    border: 2px solid #3CDCFF;
+    padding: 24px 51px 27px 50px;
+    color: #3CDCFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background-color:#FFF;
+}
+
+
+
+
+.footer{
+    max-width: 1920px;
+    background-color:#F1F2F6;
+    height: 180px;
+}
+
+.parent__foot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+    padding-left: 120px;
+    align-items: center;
+
+}
+
+.footer__confidentiality{
+    margin-left: 123px;
+    color: #537B97;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.footer__agreement{
+    margin-left: 102px;
+    color: #537B97;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.parent__foot-wrapper{
+    display: flex;
+}
+
+
+.parent__menu{
+    display: flex;
+    padding-right: 124px;
+    gap: 0 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Адаптив */
+
+@media(max-width:764px){
+    
+.bigContainer{
+    max-width: 750px;
+    margin-bottom: 30px; 
+}
+
+
+.title{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 25px;
+    margin-bottom: 30px;
+    }
+
+
+    
+.text__for-irland{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 46px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+   .open__close{
+    display: none;
+   }
+
+   .menu__list{
+    padding-top: 3px;
+    width: 67px;
+    background-color:gold;
+    height: 100%;
+    flex-direction: column;
+   }
+
+   .menu__list-link{
+    padding-bottom: 2px;
+    border-bottom: solid 1px rgb(43, 39, 16);
+    cursor: pointer;
+    
+   }
+   .menu__list-link:hover{
+    background-color: #3b1057;
+    transition: 0.5s;
+    cursor: pointer;
+   }
+
+          
+    }
+
+
+   
+
+
